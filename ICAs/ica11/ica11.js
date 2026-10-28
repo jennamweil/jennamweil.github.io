@@ -23,7 +23,7 @@ function returnRandomStoryString() {
   const randomPlace = randomValueFromArray(places);
   const randomEvent = randomValueFromArray(events);
 
-  const storyText = `The weather hit 50 Fahrenheit outside, so ${randomCharacter} wanted to go for a swim. Instead of the swimming pool, they found themselves at ${randomPlace}. Rather than questioning it, they ${randomEvent}. Peppa Pig laughed in amusement, she happened to be walking by — ${randomCharacter} weighed 600 pounds, and couldn't get home.`;
+  const storyText = `The weather hit 50 Fahrenheit outside, so ${randomCharacter} wanted to go for a swim. Instead of the swimming pool, they found themselves at ${randomPlace}. Rather than questioning it, they ${randomEvent}. Peppa Pig laughed in amusement, she happened to be walking by — ${randomCharacter} weighed 600 pounds, and got lost on their way home.`;
 
   return storyText;
 }
