@@ -1,0 +1,45 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 600px;
+  background: #1a1030;
+  color: #f1e9ff;
+}
+
+fieldset {
+  border: 2px dashed #e4c3ff;
+  border-radius: 8px;
+}
+
+fieldset,
+legend {
+  padding: 10px;
+  margin: 0;
+}
+
+legend {
+  color: #c8a2ff;
+  font-weight: bold;
+}
+
+label {
+  color: #f1e9ff;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  margin-top: 8px;
+  padding: 10px;
+  width: 70%;
+  display: block;
+  border: 2px solid #6c4b87;
+  border-radius: 8px;
+  background: #2a1b4d;
+  color: #f1e9ff;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
